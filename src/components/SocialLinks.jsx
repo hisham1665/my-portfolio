@@ -1,4 +1,4 @@
-import { FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaWhatsapp ,FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const SocialLinks = () => {
@@ -44,6 +44,15 @@ const SocialLinks = () => {
         title="WhatsApp"
       >
         <FaWhatsapp className="text-[#25D366]" size={'40'} />
+      </a>
+      <a 
+        href="https://github.com/hisham1665"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:scale-110 transition-transform"
+        title="GitHub"
+      >
+        <FaGithub className="text-[#000000]" size={'40'}/>
       </a>
     </div>
   );

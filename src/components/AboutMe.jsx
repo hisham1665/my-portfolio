@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <section id="about" className="py-12 px-6 md:px-20 bg-[#F0F0EC]  text-violet-700 ">
+    <section id="about" className="py-12 px-6 md:px-20   text-violet-700 ">
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">About Me</h2>
       <div className="space-y-5 text-lg leading-relaxed text-gray-500">
         <p>
