@@ -25,7 +25,7 @@ function Header() {
   return (
     <div>
       {/* Navbar */}
-      <header className="text-fuchsia-800 px-4 py-3 flex justify-between items-center absolute bg-gray-100 shadow-md rounded-lg w-full top-0 z-50">
+      <header className="text-fuchsia-800 px-4 lg:px-10 py-3 flex justify-between fixed items-center  bg-gray-100 shadow-md rounded-lg w-full top-0 z-50">
         <h1 className="text-3xl font-bold">My Portfolio</h1>
         <button
           className="sm:hidden focus:outline-none z-50 bg-violet-600 hover:bg-violet-700 text-white p-2 rounded-md transition-colors duration-200"
@@ -65,7 +65,7 @@ function Header() {
       </div>
 
       {/* Main Section */}
-      <div className="bg-gradient-to-r from-violet-500 to-blue-500 p-8 pt-28 min-h-screen flex flex-col-reverse lg:flex-row items-center justify-around">
+      <div id="home" className="bg-gradient-to-r from-violet-500 to-blue-500 p-8 pt-28 min-h-screen flex flex-col-reverse lg:flex-row items-center justify-around">
         <div className="flex flex-col text-white pr-0 lg:pr-10 w-full max-w-xl text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-4">
             Hi, I am <span className="font-bold">Hisham K H</span>
