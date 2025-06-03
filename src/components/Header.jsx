@@ -27,7 +27,11 @@ function Header() {
       {/* Navbar */}
       <header className="text-fuchsia-800 px-4 py-3 flex justify-between items-center absolute bg-gray-100 shadow-md rounded-lg w-full top-0 z-50">
         <h1 className="text-3xl font-bold">My Portfolio</h1>
-        <button className="sm:hidden focus:outline-none z-50" onClick={toggleMenu} aria-label="Toggle menu">
+        <button
+          className="sm:hidden focus:outline-none z-50 bg-violet-600 hover:bg-violet-700 text-white p-2 rounded-md transition-colors duration-200"
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
           {menuOpen ? (
             <svg className="w-8 h-8 text-gray-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
@@ -51,7 +55,7 @@ function Header() {
         <div className="fixed inset-0 bg-violet-500/40 backdrop-blur-sm z-40" onClick={closeMenu} />
       )}
 
-      <div className={`sm:hidden fixed top-0 left-0 right-0 bg-white shadow-lg z-50 transform transition-transform duration-300 ${menuOpen ? 'translate-y-14 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'}`}>
+      <div className={`sm:hidden fixed top-0 left-0 right-0 bg-white shadow-lg z-50 transform transition-transform duration-300 ${menuOpen ? 'translate-y-18 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'}`}>
         <nav className="flex flex-col items-center space-y-4 py-6 text-indigo-900 text-lg">
           <a href="#home" onClick={closeMenu}>Home</a>
           <a href="#about" onClick={closeMenu}>About</a>
@@ -61,7 +65,7 @@ function Header() {
       </div>
 
       {/* Main Section */}
-      <div className="bg-gradient-to-r from-violet-500 to-blue-500 p-8 pt-28 min-h-screen flex flex-col lg:flex-row items-center justify-around">
+      <div className="bg-gradient-to-r from-violet-500 to-blue-500 p-8 pt-28 min-h-screen flex flex-col-reverse lg:flex-row items-center justify-around">
         <div className="flex flex-col text-white pr-0 lg:pr-10 w-full max-w-xl text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-4">
             Hi, I am <span className="font-bold">Hisham K H</span>
@@ -82,8 +86,7 @@ function Header() {
               </motion.h3>
             </AnimatePresence>
           </div>
-
-          <div className="rounded-3xl bg-white p-4 shadow-lg inline-block mx-auto lg:mx-0 w-max">
+          <div className="rounded-3xl bg-white p-4 shadow-lg mx-auto lg:mx-0 w-max">
             <SocialLinks />
           </div>
         </div>
