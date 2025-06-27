@@ -23,6 +23,13 @@ const projectsitems = [
     link: "https://hh-agency.onrender.com/",
   },
   {
+    title: "Voting System",
+    description:
+      "It Is A Voting Software for Class Election",
+    image: "/screenshots/5.png",
+    link: "https://shr-voting.onrender.com/",
+  },
+  {
     title: "HH Weather App",
     description:
       "Weather app providing real-time temperature and air quality updates.",
