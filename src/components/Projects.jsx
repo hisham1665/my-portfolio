@@ -3,6 +3,18 @@ import { motion } from "framer-motion";
 
 const projectsitems = [
   {
+    title: "HH Project Management",
+    description: "A project management website for managing tasks and projects with real-time chat with team members.",
+    image: "/screenshots/6.png",
+    link: "https://hhprojectmanagement.onrender.com/",
+  },
+  {
+    title: "HH Agency",
+    description: "Shop management website for a shop called HH Agency.",
+    image: "/screenshots/3.png",
+    link: "https://hh-agency.onrender.com/",
+  },
+  {
     title: "Mediremedy",
     description:
       "Medicine recommendation website for lifestyle diseases like diabetes, hypertension, etc.",
@@ -15,12 +27,6 @@ const projectsitems = [
       "An event website created as a personal project. The event does not exist.",
     image: "/screenshots/2.png",
     link: "https://ispraire20.vercel.app/",
-  },
-  {
-    title: "HH Agency",
-    description: "Shop management website for a shop called HH Agency.",
-    image: "/screenshots/3.png",
-    link: "https://hh-agency.onrender.com/",
   },
   {
     title: "Voting System",
