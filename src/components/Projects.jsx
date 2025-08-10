@@ -15,6 +15,13 @@ const projectsitems = [
     link: "https://hh-agency.onrender.com/",
   },
   {
+    title: "Kazhutha Chat",
+    description:
+      "A chat bot that act like a kazhutha which never understand any thing",
+    image: "/screenshots/4.png",
+    link: "https://kazhutha.vercel.app/",
+  },
+  {
     title: "Mediremedy",
     description:
       "Medicine recommendation website for lifestyle diseases like diabetes, hypertension, etc.",
@@ -34,13 +41,6 @@ const projectsitems = [
       "It Is A Voting Software for Class Election",
     image: "/screenshots/5.png",
     link: "https://shr-voting.onrender.com/",
-  },
-  {
-    title: "HH Weather App",
-    description:
-      "Weather app providing real-time temperature and air quality updates.",
-    image: "/screenshots/4.png",
-    link: "https://weather-xfiq.vercel.app/",
   },
 ];
 
