@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website
 
-A sleek, modern, and fully responsive portfolio website built using **React** and **Tailwind CSS**, showcasing my work, skills, and experience as a developer.
+A sleek, modern, and fully responsive portfolio website built using **React** and **Tailwind CSS**, showcasing my work, skills, and experience as a developer. It Contain all my technical activitieas
 
 ## 🌐 Live Demo
 
