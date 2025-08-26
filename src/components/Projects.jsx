@@ -15,6 +15,13 @@ const projectsitems = [
     link: "https://hh-agency.onrender.com/",
   },
   {
+    title: "HH Attendance",
+    description:
+      "A powerful, production-ready full-stack solution for seamless attendance management with dynamic features with real-time tracking.",
+    image: "/screenshots/7.png",
+    link: "https://hh-attendence.onrender.com/",
+  },
+  {
     title: "Kazhutha Chat",
     description:
       "A chat bot that act like a kazhutha which never understand any thing",
@@ -22,25 +29,18 @@ const projectsitems = [
     link: "https://kazhutha.vercel.app/",
   },
   {
-    title: "Mediremedy",
-    description:
-      "Medicine recommendation website for lifestyle diseases like diabetes, hypertension, etc.",
-    image: "/screenshots/1.png",
-    link: "https://mediremedy.vercel.app/",
-  },
-  {
-    title: "Ispraire 20",
-    description:
-      "An event website created as a personal project. The event does not exist.",
-    image: "/screenshots/2.png",
-    link: "https://ispraire20.vercel.app/",
-  },
-  {
     title: "Voting System",
     description:
       "It Is A Voting Software for Class Election",
     image: "/screenshots/5.png",
     link: "https://shr-voting.onrender.com/",
+  },
+  {
+    title: "Mediremedy",
+    description:
+      "Medicine recommendation website for lifestyle diseases like diabetes, hypertension, etc.",
+    image: "/screenshots/1.png",
+    link: "https://mediremedy.vercel.app/",
   },
 ];
 
