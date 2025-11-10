@@ -6,7 +6,7 @@ const projectsitems = [
     title: "HH Project Management",
     description: "A project management website for managing tasks and projects with real-time chat with team members.",
     image: "/screenshots/6.png",
-    link: "https://hhprojectmanagement.onrender.com/",
+    link: "https://projectmanagement.hishamkh.me/",
   },
   {
     title: "HH Agency",
